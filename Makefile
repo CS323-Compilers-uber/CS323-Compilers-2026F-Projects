@@ -21,6 +21,4 @@ clean:
 jar:
 	mvn jar:jar
 
--include conf/proj.mk
--include conf/handin.mk
 

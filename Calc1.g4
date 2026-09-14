@@ -1,6 +1,6 @@
 grammar Calc1;
 
-expr  	: expr PLUS expr
+expr  	: expr MUL expr
 	 	| expr DIV expr
 	 	| expr PLUS expr
 	 	| expr MINUS expr

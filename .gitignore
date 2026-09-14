@@ -5,7 +5,7 @@ src/main/java/generated
 *.tar
 *.tar.gz
 .myapi.key
-
+bin
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

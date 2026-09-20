@@ -34,7 +34,7 @@ public class Grader {
 
             if (token.getType() == Token.EOF) {
                 tokenName = "EOF";
-                raw = "";
+                raw = "<EOF>";
             } else {
                 tokenName = vocabulary.getSymbolicName(token.getType());
                 raw = token.getText();

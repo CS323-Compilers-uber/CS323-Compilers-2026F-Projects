@@ -1,0 +1,5 @@
+int/* type */value = 8 / 2; // ignore the rest
+/* first */value/* second */= 3;
+ret/**/urn
+/* outer
+   /* inner */ + 2

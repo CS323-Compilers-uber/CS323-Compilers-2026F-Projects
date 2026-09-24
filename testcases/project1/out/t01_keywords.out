@@ -1,0 +1,7 @@
+Token: INT, Raw: int
+Token: STRUCT, Raw: struct
+Token: RETURN, Raw: return
+Token: IF, Raw: if
+Token: ELSE, Raw: else
+Token: WHILE, Raw: while
+Token: EOF, Raw: <EOF>

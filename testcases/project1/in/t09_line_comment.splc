@@ -1,0 +1,8 @@
+int a; // trailing comment
+// whole line comment
+//
+b = 1; //no space
+d; // contains /* and */ inside
+/// triple slash
+g//*h*/i
+c // last line without newline

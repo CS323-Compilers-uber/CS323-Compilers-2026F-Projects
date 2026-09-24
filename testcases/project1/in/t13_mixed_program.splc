@@ -1,0 +1,26 @@
+struct Point {
+    int x;
+    int y;
+};
+
+/* compute sum of array */
+int sum(int arr[10], int n) {
+    int i = 0;
+    int total = 0;
+    while (i < n && total >= 0) {
+        total = total + arr[i];   // accumulate
+        i = i + 1;
+    }
+    if (total != 0 || n == 0) {
+        return total % 7;
+    } else {
+        return -total ^ 2 * 3 / 4;
+    }
+}
+
+int main() {
+    struct Point p;
+    p.x = 10086;
+    p.y = !p.x;
+    return sum(p, 0) <= 1;
+}

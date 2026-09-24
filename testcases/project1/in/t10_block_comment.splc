@@ -1,0 +1,15 @@
+/*
+ * multi-line
+ * block comment
+ */
+int/* type */value = 8 / 2;
+ret/**/urn
+x /* a /* b */ y
+p /*/ still comment */ q
+m /**/ n /***/ o /* * / */ r
+s/* one */t/* two */u
+a/*//*/b
+w/* line
+continues // not a line comment
+*/z
+k */ l

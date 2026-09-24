@@ -1,0 +1,7 @@
+Token: Identifier, Raw: a
+Token: DIV, Raw: /
+Token: MUL, Raw: *
+Token: Identifier, Raw: never
+Token: Identifier, Raw: closed
+Token: Identifier, Raw: b
+Token: EOF, Raw: <EOF>
